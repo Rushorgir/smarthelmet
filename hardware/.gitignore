@@ -1,0 +1,25 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+compile_commands.json
+
+# Clangd language server index cache
+.cache/
+
+# IDE / Editor configuration
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+
+# Compiled binaries
+*.bin
+*.elf
+*.hex
+
+# Local private credentials
+include/config.h
+config.h

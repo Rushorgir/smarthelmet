@@ -1,0 +1,35 @@
+# PlatformIO & Compiler Artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+compile_commands.json
+*.bin
+*.elf
+*.hex
+
+# Language Server & IDE Configurations (contains local machine paths)
+.cache/
+**/.cache/
+.vscode/
+**/.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Web & Node dependencies / builds
+node_modules/
+dist/
+dist-ssr/
+build/
+*.log
+
+# Sensitive Credentials & Private Configurations (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+*.local
+config.h
+**/config.h
+!config.example.h
+!**/config.example.h
